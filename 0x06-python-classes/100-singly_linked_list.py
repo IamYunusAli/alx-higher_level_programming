@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Define classes for a singly-linked list."""
 
 
 class Node:
@@ -41,7 +42,7 @@ class SinglyLinkedList:
     """Represent a singly-linked list."""
 
     def __init__(self):
-        """Initalize a new SinglyLinkedList."""
+        """Initialize a new SinglyLinkedList."""
         self.__head = None
 
     def sorted_insert(self, value):
